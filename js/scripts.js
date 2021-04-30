@@ -39,4 +39,10 @@
     $("body").scrollspy({
         target: "#sideNav",
     });
+   
+    // Carousel options
+       $('.carousel').carousel({
+  interval: false
+});
+       
 })(jQuery); // End of use strict
