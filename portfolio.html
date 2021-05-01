@@ -46,6 +46,20 @@
                              <h3 class="mb-5">Electronic Direct Mailers</h3>
 	<div class="album py-5 bg-light">
     <div class="container">
+	    
+	    <div class="post-container" id="post-container">
+        <script type="text/javascript">
+
+                $().ready(function(){
+                    $('.spoiler').hide()
+                    $(document).on('click', '.showSpoiler', function(){
+                        $(this).closest('div').find('.spoiler').show()
+                        $(this).hide()
+                        return false
+                    })
+                })
+            
+</script>
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 	  
@@ -152,7 +166,8 @@
         </div>		
   </div>            
   </div>
-  </div>                
+  </div>   
+	    </div>
   </section>
             <hr class="m-0" />
  
